@@ -8,4 +8,10 @@ enum class StateUse : uint8_t {
   NotUsed,
 };
 
-}
+enum class LangCode : uint16_t {
+  undefined,
+  en,
+  ja,
+};
+
+}  // namespace enum_asukiaaa
